@@ -5,9 +5,9 @@ if (!window.hasOwnProperty("ontouchstart")) {
     let fireworks = document.createElement("canvas");
     fireworks.id = "fireworks";
     let bscript = document.createElement("script");
-    bscript.src = "/js/background.js";
+    bscript.src = "/js/background.min.js";
     let fscript = document.createElement("script");
-    fscript.src = "/js/fireworks.js";
+    fscript.src = "/js/fireworks.min.js";
     document.body.insertAdjacentElement("afterbegin", background);
     document.body.insertAdjacentElement("afterbegin", bscript);
     document.body.insertAdjacentElement("afterbegin", fireworks);
