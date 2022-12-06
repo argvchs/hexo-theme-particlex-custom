@@ -35,7 +35,6 @@ menu:
         name: tags
         theme: solid
         src: /tags
-    # Example:
     # <name>:
     #     name: <icon-name>
     #     theme: <icon-theme>
@@ -62,14 +61,12 @@ card:
             name: envelope
             theme: solid
             link: mailto:argvchs@outlook.com
-        # Example:
         # <name>:
         #    name: <icon-name>
         #    theme: <icon-theme>
         #    link: <link-url>
     friend_links:
-        []
-        # Example:
+        {}
         # <name>: <link-url>
 
 # Footer info
@@ -106,7 +103,6 @@ gitalk:
         argvchs.vercel.app:
             clientID: cc3e39819ab1db56cbcc
             clientSecret: 31e556e8e6275f47e1c847c368b654e7f26544b1
-        # Example:
         # <www.example.com>:
         #    clientID: <client-id>
         #    clientSecret: <client-secret>
@@ -115,7 +111,7 @@ gitalk:
 # https://github.com/giscus/giscus
 giscus:
     enable: false
-    src: https://giscus.app/client.js
+    src: https://giscus.app/client.js # Default src
     repo:
     repoID:
     category:
@@ -127,7 +123,9 @@ giscus:
     inputPosition: bottom
     theme: preferred_color_scheme
     lang: zh-CN
-    crossorigin: anonymous
+    sites: # Sites
+        {}
+        # <www.example.com>: <src>
 
 # Waline
 # https://github.com/walinejs/waline
@@ -136,7 +134,7 @@ waline:
     serverURL: # Waline server address url, you should set this to your own link
     locale: # Locale: https://waline.js.org/guide/client/i18n.html#locale-option
         {}
-        # Example:
+        # e.g.:
         # placeholder: Leave a comment
     commentCount: true # If false, comment count will only be displayed in post page, not in home page
     pageview: false # Pageviews count, Note: You should not enable both `waline.pageview` and `leancloud_visitors`
