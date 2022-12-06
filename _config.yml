@@ -85,7 +85,7 @@ search:
 # Gitalk
 # https://github.com/gitalk/gitalk
 gitalk:
-    enable: true
+    enable: false
     clientID: 170844d595d9facb0be0 # Default ClientID
     clientSecret: 21b990860bd70f9ac33d06f06d3232e82c464a3a # Default ClientSecret
     repo: gitalk-comments # The name of repository of store comments
@@ -110,22 +110,19 @@ gitalk:
 # Giscus
 # https://github.com/giscus/giscus
 giscus:
-    enable: false
-    src: https://giscus.app/client.js # Default src
-    repo:
-    repoID:
-    category:
-    categoryID:
+    enable: true
+    src: https://giscus-argvchs.netlify.app/client.js
+    repo: argvchs/giscus-comments
+    repoID: R_kgDOIfnTTA
+    category: Announcements
+    categoryID: DIC_kwDOIfnTTM4CSu2A
     mapping: pathname
-    strict: 0
-    reactionsEnabled: 1
+    strict: 1
+    reactionsEnabled: 0
     emitMetadata: 0
     inputPosition: bottom
-    theme: preferred_color_scheme
+    theme: particlex
     lang: zh-CN
-    sites: # Sites
-        {}
-        # <www.example.com>: <src>
 
 # Waline
 # https://github.com/walinejs/waline
