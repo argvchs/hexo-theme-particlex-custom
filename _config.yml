@@ -78,6 +78,7 @@ footer:
         code:
         link:
 
+# Search
 search:
     enable: true
     path: # Default: search.json
