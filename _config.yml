@@ -80,7 +80,7 @@ footer:
 
 # Crypto
 crypto:
-    enable: false
+    enable: true
 
 # Search
 search:
