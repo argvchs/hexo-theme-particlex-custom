@@ -78,6 +78,10 @@ footer:
         code:
         link:
 
+# Crypto
+crypto:
+    enable: false
+
 # Search
 search:
     enable: true
