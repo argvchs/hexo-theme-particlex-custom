@@ -123,7 +123,7 @@ giscus:
     categoryID: DIC_kwDOIfnTTM4CSu2A
     mapping: pathname
     strict: 1
-    reactionsEnabled: 0
+    reactionsEnabled: 1
     emitMetadata: 0
     inputPosition: bottom
     theme: particlex
