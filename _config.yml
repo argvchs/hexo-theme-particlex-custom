@@ -85,7 +85,7 @@ crypto:
 # Search
 search:
     enable: true
-    path: # Default: search.json
+    path: /search.json
 
 # Gitalk
 # https://github.com/gitalk/gitalk
