@@ -7,12 +7,8 @@
     border-top-left-radius: 10px;
     border-left: 2px solid #66afef00;
     border-top: 2px solid #66afef00;
-    -webkit-transition: bottom 0.5s, background 0.5s, border 0.5s;
-    -moz-transition: bottom 0.5s, background 0.5s, border 0.5s;
-    -o-transition: bottom 0.5s, background 0.5s, border 0.5s;
     transition: bottom 0.5s, background 0.5s, border 0.5s;
     cursor: pointer;
-    -ms-touch-action: none;
     touch-action: none;
 }
 #L2dCanvas:hover {
@@ -30,9 +26,6 @@
     height: 100%;
     width: 100%;
     padding: 10px;
-    background: -webkit-linear-gradient(120deg, #9abbf7 0, #ffbbf4 100%);
-    background: -moz-linear-gradient(120deg, #9abbf7 0, #ffbbf4 100%);
-    background: -o-linear-gradient(120deg, #9abbf7 0, #ffbbf4 100%);
     background: linear-gradient(120deg, #9abbf7 0, #ffbbf4 100%);
     color: #fff;
     font-size: 14px;
@@ -40,9 +33,6 @@
     text-align: center;
     letter-spacing: 10px;
     border-top-left-radius: 10px;
-    -webkit-transition: opacity 0.5s;
-    -moz-transition: opacity 0.5s;
-    -o-transition: opacity 0.5s;
     transition: opacity 0.5s;
 }
 #L2dCanvas:hover::after {
@@ -73,9 +63,6 @@
     border-radius: 8px;
     background: #000;
     opacity: 0;
-    -webkit-transition: opacity 0.2s transform 0.2s;
-    -moz-transition: opacity 0.2s, transform 0.2s;
-    -o-transition: opacity 0.2s, transform 0.2s;
     transition: opacity 0.2s, transform 0.2s;
     z-index: 32767;
     pointer-events: none;
