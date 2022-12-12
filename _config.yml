@@ -80,7 +80,7 @@ footer:
 
 # Rendering math with KaTeX
 math:
-    enable: false
+    enable: true
 
 # Article encryption
 crypto:
