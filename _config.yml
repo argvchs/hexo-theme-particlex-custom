@@ -85,6 +85,7 @@ polyfill:
     enable: true
     features:
         - default
+        - fetch
 
 # Rendering math with KaTeX
 math:
