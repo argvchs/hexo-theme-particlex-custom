@@ -44,7 +44,7 @@ menu:
 card:
     enable: true
     description:
-        - "Here's an Argvchs..."
+        - "Here's an argvchs..."
     icon_links:
         github:
             name: github
