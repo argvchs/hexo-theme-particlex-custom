@@ -1,4 +1,3 @@
-<script src="https://cdn.staticfile.org/highlight.js/11.5.1/highlight.min.js"></script>
 <script src="<%- url_for("/js/functions.js") %>"></script>
 <script src="<%- url_for("/js/particlex.js") %>"></script>
 <script src="<%- url_for("/js/custom.js") %>"></script>
@@ -66,6 +65,7 @@
     </script>
     <% } %>
     <% if (theme.twikoo.enable) { %>
+    <script src="https://cdn.staticfile.org/twikoo/1.6.8/twikoo.all.min.js"></script>
     <script>
         twikoo.init({
             el: "#twikoo-container",

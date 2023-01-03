@@ -1,17 +1,21 @@
 # https://github.com/argvchs/hexo-theme-particlex
 # Developer: argvchs
 
-# Avatar image url
+# Avatar image
 avatar: https://cdn-image-argvchs.netlify.app/avatar.jpg
 
-# Home page head info block
-head_block_enable: true
+# Home page info block
+headBlockEnable: true
 
-# Home page head background image url
-home_background: https://cdn-image-argvchs.netlify.app/home.jpg
+# Home page background image
+background: https://cdn-image-argvchs.netlify.app/home.jpg
+
+# Highlight style
+# https://highlightjs.org
+highlightStyle: github
 
 # ParticleX theme icon is adopts the Font Awesome 6
-# Link: https://fontawesome.com/search
+# https://fontawesome.com/search
 
 # Main menu navigation
 menu:
@@ -45,7 +49,7 @@ card:
     enable: true
     description:
         - "Here's an argvchs..."
-    icon_links:
+    iconLinks:
         github:
             name: github
             theme: brands
@@ -66,7 +70,7 @@ card:
         #    name: <icon-name>
         #    theme: <icon-theme>
         #    link: <link-url>
-    friend_links:
+    friendLinks:
         {}
         # <name>: <link-url>
 
