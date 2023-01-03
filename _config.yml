@@ -1,5 +1,5 @@
+# ParticleX Configuration
 # https://github.com/argvchs/hexo-theme-particlex
-# Developer: argvchs
 
 # Avatar image
 avatar: https://cdn-image-argvchs.netlify.app/avatar.jpg
@@ -108,23 +108,15 @@ search:
 # https://github.com/gitalk/gitalk
 gitalk:
     enable: false
-    clientID: 170844d595d9facb0be0 # Default ClientID
-    clientSecret: 21b990860bd70f9ac33d06f06d3232e82c464a3a # Default ClientSecret
-    repo: gitalk-comments # The name of repository of store comments
-    owner: argvchs # GitHub repo owner
-    admin: argvchs # GitHub repo owner and collaborators, only these guys can initialize github issues
-    language: zh-CN # en, zh-CN, zh-TW, es-ES, fr, ru, de, pl and ko are currently available.
-    proxy: https://cors-anywhere-argvchs.herokuapp.com/https://github.com/login/oauth/access_token # CORS proxy
+    clientID: # Default ClientID
+    clientSecret: # Default ClientSecret
+    repo: # The name of repository of store comments
+    owner: # GitHub repo owner
+    admin: # GitHub repo owner and collaborators, only these guys can initialize github issues
+    language: zh-CN # en, zh-CN, zh-TW, es-ES, fr, ru, de, pl and ko are currently available
+    proxy: # CORS proxy
     sites: # Sites
-        argvchs.github.io:
-            clientID: 170844d595d9facb0be0
-            clientSecret: 21b990860bd70f9ac33d06f06d3232e82c464a3a
-        argvchs.netlify.app:
-            clientID: 10e5540a489691cc9d41
-            clientSecret: b85c16d808150287a7ba8215fa9021470783909d
-        argvchs.vercel.app:
-            clientID: cc3e39819ab1db56cbcc
-            clientSecret: 31e556e8e6275f47e1c847c368b654e7f26544b1
+        {}
         # <www.example.com>:
         #    clientID: <client-id>
         #    clientSecret: <client-secret>
