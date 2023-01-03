@@ -2,13 +2,13 @@
 # https://github.com/argvchs/hexo-theme-particlex
 
 # Avatar image
-avatar: https://cdn-image-argvchs.netlify.app/avatar.jpg
+avatar: https://static-argvchs.netlify.app/images/avatar.jpg
 
 # Home page info block
 headBlockEnable: true
 
 # Home page background image
-background: https://cdn-image-argvchs.netlify.app/home.jpg
+background: https://static-argvchs.netlify.app/images/home.jpg
 
 # Highlight style
 # https://highlightjs.org

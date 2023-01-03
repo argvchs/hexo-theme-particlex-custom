@@ -37,6 +37,7 @@
         <script src="https://cdn.staticfile.org/vue/3.2.45/vue.global.prod.min.js"></script>
         <script src="https://cdn.staticfile.org/highlight.js/11.7.0/highlight.min.js"></script>
         <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/11.7.0/styles/<%- theme.highlightStyle %>.min.css">
+        <link rel="stylesheet" href="https://static-argvchs.netlify.app/fonts.min.css">
         <% if (theme.polyfill.enable) { %>
         <script src="https://polyfill.io/v3/polyfill.min.js?features=<% theme.polyfill.features.join(",") %>"></script>
         <% } %>
@@ -46,7 +47,6 @@
         <link rel="stylesheet" href="https://cdn.staticfile.org/KaTeX/0.16.4/katex.min.css">
         <% } %>
         <script src="https://cdn.staticfile.org/animejs/3.2.1/anime.min.js"></script>
-        <link rel="stylesheet" href="<%- url_for("/css/fonts.min.css") %>">
         <link rel="stylesheet" href="<%- url_for("/css/particlex.css") %>">
         <link rel="stylesheet" href="<%- url_for("/css/custom.css") %>">
     </head>
