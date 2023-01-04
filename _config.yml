@@ -131,7 +131,7 @@ giscus:
     category: Announcements
     categoryID: DIC_kwDOIfnTTM4CSu2A
     mapping: pathname
-    strict: 1
+    strict: 0
     reactionsEnabled: 1
     emitMetadata: 0
     inputPosition: bottom
