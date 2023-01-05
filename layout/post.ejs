@@ -53,7 +53,7 @@
     %>
     <input class="ipt crypto" placeholder="文章被加密，请输入密码">
     <div class="content" v-pre></div>
-    <script src="https://cdn.staticfile.org/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script src="https://static-argvchs.netlify.app/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
     <script src="<%- url_for("/js/cryptor.js") %>"></script>
     <script>cryptor.init("<%- encrypt(page.content, page.password.toString()) %>", "<%- SHA(page.content) %>")</script>
     <% } else { %>
@@ -62,7 +62,7 @@
     </div>
     <% } %>
     <% if (theme.gitalk.enable) { %>
-    <link rel="stylesheet" href="https://cdn.staticfile.org/gitalk/1.7.2/gitalk.min.css">
+    <link rel="stylesheet" href="https://static-argvchs.netlify.app/libs/gitalk/1.7.2/gitalk.min.css">
     <div id="comment">
         <div id="gitalk-container"></div>
     </div>
@@ -73,7 +73,7 @@
     </div>
     <% } %>
     <% if (theme.waline.enable) { %>
-    <link rel="stylesheet" href="https://cdn.staticfile.org/waline/2.9.1/waline.min.css" />
+    <link rel="stylesheet" href="https://static-argvchs.netlify.app/libs/waline/2.9.1/waline.min.css" />
     <div id="comment">
         <div id="waline-container"></div>
     </div>

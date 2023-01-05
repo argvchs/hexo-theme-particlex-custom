@@ -3,7 +3,7 @@
 <script src="<%- url_for("/js/custom.js") %>"></script>
 <% if (is_post()) { %>
     <% if (theme.gitalk.enable) { %>
-    <script src="https://cdn.staticfile.org/gitalk/1.7.2/gitalk.min.js"></script>
+    <script src="https://static-argvchs.netlify.app/libs/gitalk/1.7.2/gitalk.min.js"></script>
     <script>
         let clientID = "<%- theme.gitalk.clientID %>", clientSecret = "<%- theme.gitalk.clientSecret %>";
         <% Object.keys(theme.gitalk.sites).forEach(key => { %>
@@ -47,7 +47,7 @@
     ></script>
     <% } %>
     <% if (theme.waline.enable) { %>
-    <script src="https://cdn.staticfile.org/waline/2.9.1/waline.min.js"></script>
+    <script src="https://static-argvchs.netlify.app/libs/waline/2.9.1/waline.min.js"></script>
     <script>
         Waline.init({
             el: "#waline-container",
@@ -66,7 +66,7 @@
     </script>
     <% } %>
     <% if (theme.twikoo.enable) { %>
-    <script src="https://cdn.staticfile.org/twikoo/1.6.8/twikoo.all.min.js"></script>
+    <script src="https://static-argvchs.netlify.app/libs/twikoo/1.6.8/twikoo.all.min.js"></script>
     <script>
         twikoo.init({
             el: "#twikoo-container",
